@@ -1,11 +1,5 @@
 package meligosdk
 
-import (
-  "fmt"
-  "io/ioutil"
-  http "net/http"
-)
-
 type Meli struct {
   clientId  string
   clientSecret string
